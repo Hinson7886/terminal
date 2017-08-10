@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li{
+	font-weight: 100px;
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
+.logo{
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+
+.jumbotron{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+	background-size: cover;
+	background-position: bottom center;
+	 height: 700px;
+  	width: 100%;
+}
+
+.content h1{
+	color: white;
+	border: 3px solid white;
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	top: 50px;
+} 
+
+.alert{
+	padding: 40px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+
+.main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1200px;
+  overflow: scroll;
+}
+
+
+.byline{
+	border-top: 1px solid LightGrey;
+	border-bottom:  1px solid LightGrey;
+	color: DarkGrey;
+  	font-size: 14px;
+  	font-weight: 200;
+  	margin: 0 auto;
+  	width: 400px;
+  	text-align: center;
+  	position: relative;
+}	
+
+ p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+h2{
+	border: 1px dotted red;
+	color: red;
+	font-size: 16px;
+	line-height: 48px;
+	margin-top: 60px;
+	padding: 10px 20px;
+
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
